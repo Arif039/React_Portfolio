@@ -13,7 +13,7 @@ export default function Banner () {
                 </div>
 
                 <div>
-                    <h3 className=' text-xl md:text-3xl'>I am a fullstack Blockchain Developer based on Bangladesh | Focused on building user-centric solutions across smart contracts, NFTs, and Defi platform </h3>
+                    <h3 className=' text-lg md:text-2xl'>I am a fullstack Blockchain Developer based on Bangladesh | Focused on building user-centric solutions across smart contracts, NFTs, and Defi platform </h3>
                 </div>
                 <div>
                     <button href= "#" className='text-2xl bg-violet-500 p-3 cursor-pointer rounded-lg text-white hover:scale-105  transition-transform all delay-100'>Say Hello!</button>

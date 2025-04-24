@@ -6,6 +6,7 @@ import Navbar from './components/navbar';
 import Banner from './components/banner';
 import Process from './components/process';
 import Projects from './components/projects';
+import WorkTogether from './components/worktogether';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,6 +18,7 @@ function App() {
       <Banner/>
       <Process/>
       <Projects/>
+      <WorkTogether/>
      
     </>
   )
