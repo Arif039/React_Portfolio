@@ -25,14 +25,14 @@ export default function Process () {
     <div className=' '>
         <div className='bg-white p-10 rounded-lg mb-4'>
             <img src={researchImage} alt='researchImage' className='mb-4'></img>
-            <h2 className='text-2xl font-bold mb-4'>1. Research</h2>
-            <h3 className='text-[#7f8794] text-xl'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</h3>
+            <h2 className='text-xl md:text-2xl font-bold mb-4'>1. Research</h2>
+            <h3 className='text-[#7f8794] text-sm md:text-xl'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</h3>
         </div>
 
         <div className='bg-white p-10 rounded-lg'>
             <img src={designImage} alt='analyzeImage' className='mb-4'></img>
-            <h2 className='text-2xl font-bold mb-4'>2. Design</h2>
-            <h3 className='text-[#7f8794] text-xl'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</h3>
+            <h2 className='text-xl md:text-2xl font-bold mb-4'>2. Design</h2>
+            <h3 className='text-[#7f8794] text-sm md:text-xl'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</h3>
         </div>
         
     </div>
@@ -41,14 +41,14 @@ export default function Process () {
 
         <div className='bg-white p-10 rounded-lg md:mt-6'>
             <img src={analyzeImage} alt='designImage'  className='mb-4'></img>
-            <h2 className='text-2xl font-bold mb-4'>3. Analyze</h2>
-            <h3 className='text-[#7f8794] text-xl'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</h3>
+            <h2 className='text-xl md:text-2xl font-bold mb-4'>3. Analyze</h2>
+            <h3 className='text-[#7f8794] text-sm md:text-xl'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</h3>
         </div>
 
         <div className='bg-white p-10 rounded-lg mt-6'>
             <img src={launchImage} alt='launchImage' className='mb-4'></img>
-            <h2 className='text-2xl font-bold mb-4'>4. Launch</h2>
-            <h3 className='text-[#7f8794] text-xl'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</h3>
+            <h2 className='text-xl md:text-2xl font-bold mb-4'>4. Launch</h2>
+            <h3 className='text-[#7f8794] text-sm md:text-xl'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</h3>
         </div>
         
     </div>

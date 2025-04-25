@@ -19,7 +19,7 @@ export default function Projects () {
                 <h3 className='text-[#697484] text-sm md:w-4/7 m-auto mb-8 md:text-lg'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam neque sequi minus expedita perferendis enim delectus, asperiores accusantium magni. Praesentium</h3>
             </div>
 
-            <div className='grid grid-cols-1 md:grid-cols-3 gap-4'>
+            <div className='grid grid-cols-1 lg:grid-cols-3 gap-4'>
 
                 <div className='flex flex-col gap-4 border-1 border-gray-300  rounded-md shadow-md'>
                     <img src={supplyImage} alt="supplychain" className='h-90 bg-fixed'/>
