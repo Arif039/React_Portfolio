@@ -9,6 +9,7 @@ import Projects from './components/projects';
 import WorkTogether from './components/worktogether';
 import About from './components/about';
 import Contact from './components/contact';
+import Footer from './components/footer';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -23,6 +24,7 @@ function App() {
       <WorkTogether/>
       <About/>
       <Contact/>
+      <Footer/>
      
     </>
   )

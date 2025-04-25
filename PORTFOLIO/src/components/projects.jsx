@@ -10,7 +10,7 @@ export default function Projects () {
 
     return (
 
-        <div className='w-5/6 m-auto mt-20'>
+        <div className='w-5/6 m-auto mt-20' id='projects'>
 
             
 

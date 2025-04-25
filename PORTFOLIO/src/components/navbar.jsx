@@ -1,6 +1,8 @@
 import React, {useState} from 'react';
 
 function Navbar () {
+
+    
    const [isOpen, setIsopen] = useState(false); 
 
    const toggleMenu = () => {
@@ -8,7 +10,9 @@ function Navbar () {
    }
 
    return (
-    <div className=' w-5/6 m-auto flex flex-row '>
+
+    <section id= "home" className='scroll-smooth'>
+    <div className=' w-5/6 m-auto flex flex-row scroll-smooth' id='home'>
         {/* logo and Name */}
 
         <div className='w-full flex flex-row justify-end'>
@@ -21,12 +25,12 @@ function Navbar () {
 
         <div className='hidden md:block w-full place-items-end  text-xl'>
                 <ul className=' flex flex-row py-2'>
-                    <li><a href='#' className='block px-4 py-2 hover:rounded-lg text-gray-800 hover:bg-violet-500 hover:text-white'>Home</a></li>
-                    <li><a href='#' className='block px-4 py-2 hover:rounded-lg text-gray-800 hover:bg-violet-500 hover:text-white'>About</a></li>
-                    <li><a href='#' className='block px-4 py-2 hover:rounded-lg text-gray-800 hover:bg-violet-500 hover:text-white'>Process</a></li>
-                    <li><a href='#' className='block px-4 py-2 hover:rounded-lg text-gray-800 hover:bg-violet-500 hover:text-white'>Projects</a></li>
-                    <li><a href='#' className='block px-4 py-2 hover:rounded-lg text-gray-800 hover:bg-violet-500 hover:text-white'>Services</a></li>
-                    <li><a href='#' className='block px-4 py-2 hover:rounded-lg text-gray-800 hover:bg-violet-500 hover:text-white'>Contact</a></li>
+                    <li><a href='#home' className='block px-4 py-2 hover:rounded-lg text-gray-800 hover:bg-violet-500 hover:text-white'>Home</a></li>
+                    <li><a href='#about' className='block px-4 py-2 hover:rounded-lg text-gray-800 hover:bg-violet-500 hover:text-white'>About</a></li>
+                    <li><a href='#process' className='block px-4 py-2 hover:rounded-lg text-gray-800 hover:bg-violet-500 hover:text-white'>Process</a></li>
+                    <li><a href='#projects' className='block px-4 py-2 hover:rounded-lg text-gray-800 hover:bg-violet-500 hover:text-white'>Projects</a></li>
+                    <li><a href='#services' className='block px-4 py-2 hover:rounded-lg text-gray-800 hover:bg-violet-500 hover:text-white'>Services</a></li>
+                    <li><a href='#contact' className='block px-4 py-2 hover:rounded-lg text-gray-800 hover:bg-violet-500 hover:text-white'>Contact</a></li>
                 </ul>
                 
             </div>
@@ -46,12 +50,12 @@ function Navbar () {
             {/* Menu Items */}
             <div className={`absolute bg-gray-200 top-full ml-0 w-full mr-2  overflow-hidden transition-all duration-300 ${isOpen ? 'max-h-screen' : 'max-h-0'}`}>
                 <ul className=' flex flex-col md:flex-row  py-2'>
-                    <li><a href='#' className='block px-4 py-2 text-gray-800 hover:bg-violet-500 hover:text-white'>Home</a></li>
-                    <li><a href='#' className='block px-4 py-2 text-gray-800 hover:bg-violet-500 hover:text-white'>About</a></li>
-                    <li><a href='#' className='block px-4 py-2 text-gray-800 hover:bg-violet-500 hover:text-white'>Process</a></li>
-                    <li><a href='#' className='block px-4 py-2 text-gray-800 hover:bg-violet-500 hover:text-white'>Projects</a></li>
-                    <li><a href='#' className='block px-4 py-2 text-gray-800 hover:bg-violet-500 hover:text-white'>Services</a></li>
-                    <li><a href='#' className='block px-4 py-2 text-gray-800 hover:bg-violet-500 hover:text-white'>Contact</a></li>
+                    <li><a href='#home' className='block px-4 py-2 text-gray-800 hover:bg-violet-500 hover:text-white'>Home</a></li>
+                    <li><a href='#about' className='block px-4 py-2 text-gray-800 hover:bg-violet-500 hover:text-white'>About</a></li>
+                    <li><a href='#process' className='block px-4 py-2 text-gray-800 hover:bg-violet-500 hover:text-white'>Process</a></li>
+                    <li><a href='#prohects' className='block px-4 py-2 text-gray-800 hover:bg-violet-500 hover:text-white'>Projects</a></li>
+                    <li><a href='#services' className='block px-4 py-2 text-gray-800 hover:bg-violet-500 hover:text-white'>Services</a></li>
+                    <li><a href='#contact' className='block px-4 py-2 text-gray-800 hover:bg-violet-500 hover:text-white'>Contact</a></li>
                 </ul>
                 
             </div>
@@ -59,6 +63,7 @@ function Navbar () {
         </div>
 
     </div>
+    </section>
    )
 }
 

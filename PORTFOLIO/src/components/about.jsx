@@ -4,7 +4,7 @@ export default function About () {
 
     return (
 
-        <div className=" bg-gray-100">
+        <div className=" bg-gray-100" id="about">
 
             <div className="w-5/7 m-auto grid grid-cols-1 lg:grid-cols-2 py-30">
 

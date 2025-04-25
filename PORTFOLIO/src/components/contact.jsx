@@ -10,17 +10,13 @@ import { VscSend } from "react-icons/vsc";
 
 export default function Contact () {
 
-    const textColor = () => {
-
-        const tag = document.getElementsByTagName(label).className.add('text-blue-500');
-        return tag;
-    }
+    
 
     return (
 
-        <div>
+        <div className="lg:absolute lg:z-50 " id="contact">
 
-            <div className='w-5/7 m-auto p-5 lg:p-10 grid grid-cols-1 lg:grid-cols-2 gap-4 bg-gray-100 shadow-xl shadow-gray-300 mt-10 rounded-md'>
+            <div className='w-5/7 m-auto p-5 lg:p-10 grid grid-cols-1 lg:grid-cols-2 gap-4 bg-gray-100 shadow-xl  mt-10 rounded-md'>
 
                 <div className='p-1 lg:p-10'>
 
@@ -172,7 +168,7 @@ export default function Contact () {
                         </form>
 
                         <div className="mt-10 text-white">
-                            <button type="submit"  className="bg-violet-500 flex flex-row gap-4 group cursor-pointer text-2xl font-bold p-3 px-7 rounded-md hover:scale-105 transition-transform duration-300 ease-in-out"> Submit <a href="" className="mt-1.5 group-hover:ml-5 transition-transform duration-300 ease-linear text-2xl text-bold"><VscSend /></a></button>
+                            <button type="submit"  className="bg-violet-500 flex flex-row gap-4 group cursor-pointer text-sm md:text-2xl font-bold p-2 md:p-3 px-7 rounded-md hover:scale-105 transition-transform duration-300 ease-in-out"> Submit <a href="" className="mt-1.5 group-hover:ml-5 transition-transform duration-300 ease-linear text-sm md:text-2xl text-bold"><VscSend /></a></button>
                             
                         </div>
 
